@@ -196,9 +196,18 @@ const Header2 = () => {
         <div className="space-y-2">
               <a href="/" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>Home</a>
             </div>
-        <div className="space-y-2">
+        {/* <div className="space-y-2">
               <a href="/about" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>About Us</a>
-            </div>
+            </div> */}
+            <div className="space-y-2">
+  <Link
+    to="/about"
+    className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold"
+    onClick={closeMenu}
+  >
+    About Us
+  </Link>
+</div>
 
           
           
@@ -207,15 +216,33 @@ const Header2 = () => {
                       <div className="space-y-2">
               <a href="/#" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>Products</a>
             </div>
-            <div className="space-y-2">
+            {/* <div className="space-y-2">
               <a href="/services" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>Services</a>
-            </div>
+            </div> */}
+            <div className="space-y-2">
+  <Link
+    to="/systems"
+    className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold"
+    onClick={closeMenu}
+  >
+    Services
+  </Link>
+</div>
             <div className="space-y-2">
               <a href="/#" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>Systems</a>
             </div>
-            <div className="space-y-2">
+            {/* <div className="space-y-2">
               <a href="/contact" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>Contact Us</a>
-            </div>
+            </div> */}
+            <div className="space-y-2">
+  <Link
+    to="/contact"
+    className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold"
+    onClick={closeMenu}
+  >
+    Contact Us
+  </Link>
+</div>
             <div className="space-y-2">
               <a href="/#" className="block text-blue-700 hover:text-white p-1 hover:bg-blue-700 text-sm font-semibold" onClick={closeMenu}>Reference Projects</a>
             </div>
