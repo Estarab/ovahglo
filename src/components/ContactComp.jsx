@@ -82,8 +82,8 @@ const ContactComp = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-semibold text-blue-400 mb-4 flex items-center">
-            <FaMapMarkerAlt className="mr-3 text-blue-400" />
+          <h2 className="text-2xl font-semibold text-pink-500 mb-4 flex items-center">
+            <FaMapMarkerAlt className="mr-3 text-pink-500" />
             Our Location
           </h2>
           <p className="text-white text-lg leading-relaxed text-left">
@@ -98,8 +98,8 @@ const ContactComp = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-2xl font-semibold text-blue-400 mb-4 flex items-center">
-            <FaPhoneAlt className="mr-3 text-blue-400" />
+          <h2 className="text-2xl font-semibold text-pink-500 mb-4 flex items-center">
+            <FaPhoneAlt className="mr-3 text-pink-500" />
             Call Us On
           </h2>
           <ul className="pl-6 text-white text-lg space-y-2 text-left">
