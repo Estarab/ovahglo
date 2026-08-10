@@ -57,9 +57,12 @@ const Header2 = () => {
           <div className="group relative">
             <a href="/" className="text-white text-sm font-semibold p-1 hover:bg-white hover:text-blue-700">HOME</a>
           </div>
-          <div className="group relative">
+          {/* <div className="group relative">
             <a href="/about" className="text-white text-sm font-semibold p-1 hover:bg-white hover:text-blue-700">ABOUT US</a>
-          </div>
+          </div> */}
+          <Link to="/about" className="text-white text-sm font-semibold p-1 hover:bg-white hover:text-blue-700">
+  ABOUT US
+</Link>
 
           {/* Services Dropdown */}
           {/* <div className="group relative">
