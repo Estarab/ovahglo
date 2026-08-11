@@ -44,11 +44,11 @@ const Header2 = () => {
   };
 
   return (
-    <header className="bg-slate-700 text-white shadow-md py-4 opacity-100">
+    <header className="bg-slate-800 text-white shadow-md py-1 opacity-100">
       <div className="container mx-auto flex justify-between items-center px-4 md:px-8">
         {/* Logo */}
         <a href="/" className="flex items-center">
-          <img src={logo} alt=" Logo" className="h-24 w-auto" />
+          <img src={logo} alt=" Logo" className="h-10 w-auto" />
         </a>
 
         {/* Navigation (Desktop) */}

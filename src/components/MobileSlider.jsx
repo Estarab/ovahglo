@@ -2,19 +2,19 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 
 // Import your media (1 video and 3 images)
-import video1 from '../assets/slidervideos/slid2.mp4';  // Video imports
-import image1 from '../assets/slidervideos/slid1.mp4'; // Image imports
-import image2 from '../assets/slidervideos/slid3.mp4';
-import image3 from '../assets/slidervideos/slid5.mp4';
+import video1 from '../assets/our work/mobilebanner.png';  // Video imports
+import image1 from '../assets/our work/mobilebanner.png'; // Image imports
+import image2 from '../assets/our work/mobilebanner.png';
+import image3 from '../assets/our work/mobilebanner.png';
 
 const sliderData = [
   {
     media: video1, // First slide will be a video
-    title: 'Welcome to Ovahglo',
+    // title: 'Welcome to Ovahglo',
   },
   {
     media: image1, // Image slides
-    title: 'Advertising. Branding and Printing Company',
+    // title: 'Advertising. Branding and Printing Company',
   },
   {
     media: image2,
@@ -81,10 +81,11 @@ const MobileSlider = () => {
             )}
 
             {/* Overlay content */}
-            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white text-center p-4 md:p-8 bg-black bg-opacity-20">
+            {/* <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white text-center p-4 md:p-8 bg-black bg-opacity-20"> */}
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-center text-white text-center p-4 pb-10 bg-black bg-opacity-20">
               <h2 className="text-2xl bg-pink-500 md:text-3xl font-poppins font-bold mb-4">{slide.title}</h2>
 
-              <div className="flex justify-center space-x-8">
+              <div className="flex justify-center space-x-8 mb-6">
                 {/* Learn More Button */}
                 <a
                   href="/about"

@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 
-import video1 from '../assets/slidervideos/slid2.mp4';  // Video imports
-import image1 from '../assets/slidervideos/slid1.mp4'; // Image imports
-import image2 from '../assets/slidervideos/slid3.mp4';
-import image3 from '../assets/slidervideos/slid5.mp4';
+import video1 from '../assets/our work/banner111.png';  // Video imports
+import image1 from '../assets/our work/banner111.png'; // Image imports
+import image2 from '../assets/our work/banner111.png';
+import image3 from '../assets/our work/banner111.png';
 
 const sliderData = [
   {
     media: video1, // First slide will be a video
-    title: 'Welcome to Ovahglo',
+    // title: 'Welcome to Ovahglo',
   },
   {
     media: image1, // Image slides
-    title: 'Advertising. Branding and Printing Company',
+    // title: 'Advertising. Branding and Printing Company',
   },
   {
     media: image2,
@@ -73,10 +73,11 @@ const DesktopSlider = () => {
             )}
 
             {/* Overlay content */}
-            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white text-center p-4 md:p-8 bg-black bg-opacity-20">
+            {/* <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-white text-center p-4 md:p-8 bg-black bg-opacity-20"> */}
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-center text-white text-center p-4 md:p-8 pb-20 bg-black bg-opacity-20">
               <h2 className="text-2xl bg-pink-500 md:text-3xl font-bold mb-4">{slide.title}</h2>
 
-              <div className="flex justify-center space-x-8">
+              <div className="flex justify-center space-x-8 mb-12">
                 {/* Learn More Button */}
                 <a
                   href="/about"
