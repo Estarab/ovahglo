@@ -85,7 +85,7 @@ const MobileSlider = () => {
             <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-end items-center text-white text-center p-4 pb-10 bg-black bg-opacity-20">
               <h2 className="text-2xl bg-pink-500 md:text-3xl font-poppins font-bold mb-4">{slide.title}</h2>
 
-              <div className="flex justify-center space-x-8 mb-18">
+              <div className="flex justify-center space-x-8 mb-16">
                 {/* Learn More Button */}
                 <a
                   href="/about"
