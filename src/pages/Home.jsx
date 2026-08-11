@@ -21,6 +21,7 @@ import SystemsComp from '../components/SystemsComp';
 // import SystemsSlider from '../components/SystemsSlider';
 import RefProjectComp from '../components/RefProjects';
 import SliderContainer from '../components/SliderContainer';
+import OurServicesComp from '../components/OurServicesComp';
 // import ImageWithTitle from '../components/ImageWithTitle';
 
 
@@ -48,12 +49,13 @@ export default function Home() {
       {/*<ImageScroll/>*/}
       {/* <CompOne/> */}
       <CompTwo/>
-      <ScrollingText/>
+      <OurServicesComp />
+      {/* <ScrollingText/> */}
       {/* <CompThree/> */}
-      <ImageScroll/>
+      {/* <ImageScroll/> */}
       {/* <ServicesComp/> */}
       
-      <SystemsComp/>
+      {/* <SystemsComp/> */}
       {/* <SystemsSlider/> */}
       {/* <ImageWithTitle/> */}
       <RefProjectComp/>
