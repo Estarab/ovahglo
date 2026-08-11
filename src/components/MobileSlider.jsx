@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 
 // Import your media (1 video and 3 images)
-import video1 from '../assets/our work/mobilebanner.png';  // Video imports
-import image1 from '../assets/our work/mobilebanner.png'; // Image imports
-import image2 from '../assets/our work/mobilebanner.png';
-import image3 from '../assets/our work/mobilebanner.png';
+import video1 from '../assets/our work/mobilebanner1.png';  // Video imports
+import image1 from '../assets/our work/mobilebanner1.png'; // Image imports
+import image2 from '../assets/our work/mobilebanner1.png';
+import image3 from '../assets/our work/mobilebanner1.png';
 
 const sliderData = [
   {

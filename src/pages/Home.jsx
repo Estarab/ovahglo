@@ -40,7 +40,8 @@ export default function Home() {
     fetchPosts();
   }, []);
   return (
-    <div className='bg-slate-700' >
+    // <div className='bg-slate-700' >
+    <div className='bg-slate-700 overflow-x-hidden w-full'>
 
       {/* <Hero/> */}
       <SliderContainer/>
