@@ -22,6 +22,8 @@ import SystemsComp from '../components/SystemsComp';
 import RefProjectComp from '../components/RefProjects';
 import SliderContainer from '../components/SliderContainer';
 import OurServicesComp from '../components/OurServicesComp';
+import OvahgloPOS from '../components/ovahgloPos';
+import HandheldPos from '../components/HandheldPos';
 // import ImageWithTitle from '../components/ImageWithTitle';
 
 
@@ -50,6 +52,8 @@ export default function Home() {
       {/* <CompOne/> */}
       <CompTwo/>
       <OurServicesComp />
+      <HandheldPos />
+      {/* <OvahgloPOS /> */}
       {/* <ScrollingText/> */}
       {/* <CompThree/> */}
       {/* <ImageScroll/> */}

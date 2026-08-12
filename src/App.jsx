@@ -37,6 +37,7 @@ import DigitalMarketingPage from './pages/DigitalMarketingPage';
 import RefProjectsPage from './pages/RefProjectsPage';
 import Footer from './components/Footer';
 import SystemsPage from './pages/SystemsPage';
+import POS from './pages/POS';
 
 
 
@@ -75,6 +76,7 @@ export default function App() {
         <Route path='/marketing' element={<DigitalMarketingPage />} />
         <Route path='/ref-projects' element={<RefProjectsPage />} />
         <Route path='/systems' element={<SystemsPage />} />
+        <Route path='/pos' element={<POS />} />
       
 
 

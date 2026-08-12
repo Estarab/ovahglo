@@ -15,7 +15,7 @@ import {
 } from 'react-icons/fa';
 
 import { GiSewingMachine } from 'react-icons/gi';
-
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -38,10 +38,15 @@ const services = [
     title: 'Digital Printing',
     icon: <FaPrint />,
   },
-   {
-    title: 'Point of Sale Systems',
-    icon: <FaCashRegister />,
-  },
+  //  {
+  //   title: 'Point of Sale Systems',
+  //   icon: <FaCashRegister />,
+  // },
+  {
+  title: 'Point of Sale Systems',
+  icon: <FaCashRegister />,
+  link: '/pos',
+},
   {
     title: 'Litho Printing',
     icon: <FaPrint />,
@@ -262,8 +267,9 @@ const OurServicesComp = () => {
               "
             > */}
             {services.map((service, index) => (
-  <div
+  <Link
     key={index}
+    to={service.link}
     className={`
       group
       flex
@@ -390,7 +396,7 @@ const OurServicesComp = () => {
                 "
               />
 
-            </div>
+            </Link>
 
           ))}
 
