@@ -38,6 +38,8 @@ import RefProjectsPage from './pages/RefProjectsPage';
 import Footer from './components/Footer';
 import SystemsPage from './pages/SystemsPage';
 import POS from './pages/POS';
+import WebDevelopmentOrder from './pages/WebDevelopmentOrder';
+import WebDevelopmentSubmitted from './pages/WebDevelopmentSubmitted';
 
 
 
@@ -77,6 +79,9 @@ export default function App() {
         <Route path='/ref-projects' element={<RefProjectsPage />} />
         <Route path='/systems' element={<SystemsPage />} />
         <Route path='/pos' element={<POS />} />
+        <Route path='/web-development/order' element={<WebDevelopmentOrder/>} />
+        <Route path='/web-development/submitted' element={<WebDevelopmentSubmitted/>} />
+
       
 
 

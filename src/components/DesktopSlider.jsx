@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 
 import video1 from '../assets/our work/banner111.png';  // Video imports
-import image1 from '../assets/our work/banner111.png'; // Image imports
+import image1 from '../assets/our work/webdesktop.png'; // Image imports
 import image2 from '../assets/our work/banner111.png';
 import image3 from '../assets/our work/banner111.png';
 

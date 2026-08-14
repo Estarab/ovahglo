@@ -1,11 +1,15 @@
 import React from 'react'
 
-import ServicesComp from '../components/ServicesComp'
+// import ServicesComp from '../components/ServicesComp'
+import OurServicesComp from '../components/OurServicesComp'
+// import OvahgloWebDevelopment from '../components/OvahgloWebDevelopment'
 
 function ServicesPage() {
   return (
     <div>
-      <ServicesComp/>
+      {/* <ServicesComp/> */}
+      <OurServicesComp />
+      {/* <OvahgloWebDevelopment /> */}
       
     </div>
   )

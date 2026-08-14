@@ -21,6 +21,7 @@ const services = [
   {
     title: 'Website Development',
     icon: <FaDesktop />,
+    link: '/web-development',
   },
   {
     title: 'Designing Large Format',
