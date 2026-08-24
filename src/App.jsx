@@ -40,6 +40,7 @@ import SystemsPage from './pages/SystemsPage';
 import POS from './pages/POS';
 import WebDevelopmentOrder from './pages/WebDevelopmentOrder';
 import WebDevelopmentSubmitted from './pages/WebDevelopmentSubmitted';
+import StartProject from './pages/StartProject';
 
 
 
@@ -81,6 +82,8 @@ export default function App() {
         <Route path='/pos' element={<POS />} />
         <Route path='/web-development/order' element={<WebDevelopmentOrder/>} />
         <Route path='/web-development/submitted' element={<WebDevelopmentSubmitted/>} />
+        <Route path='/start-project' element={<StartProject/>} />
+
 
       
 
