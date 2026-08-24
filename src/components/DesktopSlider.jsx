@@ -2,9 +2,14 @@ import React, { useState, useEffect } from 'react';
 import Slider from 'react-slick';
 
 import video1 from '../assets/our work/banner111.png';  // Video imports
-import image1 from '../assets/our work/webdesktop.png'; // Image imports
-import image2 from '../assets/our work/banner111.png';
-import image3 from '../assets/our work/banner111.png';
+import image1 from '../assets/our work/embroidery.mp4'; // Image imports
+import image2 from '../assets/our work/webdesktop.png';
+import image3 from '../assets/our work/embroidery2.mp4';
+import image4 from '../assets/our work/carbranding.mp4';
+import image5 from '../assets/our work/heatprint.mp4';
+import image6 from '../assets/our work/bannerprint.mp4';
+import image7 from '../assets/our work/embrodery2.jpg';
+
 
 const sliderData = [
   {
@@ -21,6 +26,22 @@ const sliderData = [
   },
   {
     media: image3,
+    title: '',
+  },
+  {
+    media: image4,
+    title: '',
+  },
+  {
+    media: image5,
+    title: '',
+  },
+  {
+    media: image6,
+    title: '',
+  },
+  {
+    media: image7,
     title: '',
   },
 ];

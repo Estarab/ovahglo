@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"; 
 // Import the birthday girl image
-import birthdayImage from "../assets/WhatsApp_Image_2024-12-31_at_1.19.57_PM-removebg-preview.png"; // adjust the path as needed
+// import birthdayImage from "../assets/WhatsApp_Image_2024-12-31_at_1.19.57_PM-removebg-preview.png"; // adjust the path as needed
 
 const Countdown = () => {
   const targetDate = new Date("February 18, 2025 00:00:00").getTime();
