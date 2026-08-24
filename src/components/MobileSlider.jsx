@@ -8,8 +8,8 @@ import image2 from '../assets/our work/webdev-mobile.png';
 import image3 from '../assets/our work/embroiderymobile.png';
 import image4 from '../assets/our work/embroiderymobile.png';
 import image5 from '../assets/our work/embroiderymobile.png';
-import image6 from '../assets/our work/embroiderymobile.png';
-import image7 from '../assets/our work/embrodery2.jpg';
+import image6 from '../assets/our work/largeformat.png';
+import image7 from '../assets/our work/largeformat.png';
 
 
 const sliderData = [
