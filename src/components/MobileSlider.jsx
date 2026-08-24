@@ -3,12 +3,12 @@ import Slider from 'react-slick';
 
 // Import your media (1 video and 3 images)
 import video1 from '../assets/our work/mobilebanner1.png';  
-import image1 from '../assets/our work/embroideryslider.png'; 
+import image1 from '../assets/our work/embroiderymobile.png'; 
 import image2 from '../assets/our work/webdev-mobile.png';
-import image3 from '../assets/our work/embroideryslider.png';
-import image4 from '../assets/our work/embroideryslider.png';
-import image5 from '../assets/our work/embroideryslider.png';
-import image6 from '../assets/our work/embroideryslider.png';
+import image3 from '../assets/our work/embroiderymobile.png';
+import image4 from '../assets/our work/embroiderymobile.png';
+import image5 from '../assets/our work/embroiderymobile.png';
+import image6 from '../assets/our work/embroiderymobile.png';
 import image7 from '../assets/our work/embrodery2.jpg';
 
 
