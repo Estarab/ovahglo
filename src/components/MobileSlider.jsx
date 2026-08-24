@@ -3,9 +3,9 @@ import Slider from 'react-slick';
 
 // Import your media (1 video and 3 images)
 import video1 from '../assets/our work/mobilebanner1.png';  
-import image1 from '../assets/our work/webdev-mobile.png'; 
-import image2 from '../assets/our work/mobilebanner1.png';
-import image3 from '../assets/our work/mobilebanner1.png';
+import image1 from '../assets/our work/embroidery.mp4'; 
+import image2 from '../assets/our work/webdev-mobile.png';
+import image3 from '../assets/our work/embroidery2.mp4';
 import image4 from '../assets/our work/carbranding.mp4';
 import image5 from '../assets/our work/heatprint.mp4';
 import image6 from '../assets/our work/bannerprint.mp4';
