@@ -9,7 +9,7 @@ import image3 from '../assets/our work/embroiderymobile.png';
 import image4 from '../assets/our work/embroiderymobile.png';
 import image5 from '../assets/our work/embroiderymobile.png';
 import image6 from '../assets/our work/largeformatt.png';
-import image7 from '../assets/our work/largeformat.png';
+import image7 from '../assets/our work/largeformatt.png';
 
 
 const sliderData = [
