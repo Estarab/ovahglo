@@ -101,10 +101,10 @@ const DesktopSlider = () => {
               <div className="flex justify-center space-x-8 mb-12">
                 {/* Learn More Button */}
                 <a
-                  href="/about"
+                  href="/start-project"
                   className="inline-block font-semibold py-3 px-6 bg-pink-500 rounded-lg shadow-md hover:bg-blue-600 transform transition duration-300"
                 >
-                  Learn More
+                  Start a Project
                 </a>
 
                 {/* Contact Us Button */}

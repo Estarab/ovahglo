@@ -16,6 +16,7 @@ const categories = [
   "BRANDING",
   "EMBROIDERY",
   "PRINTING",
+  "SIGNAGE",
   "DIGITAL",
   "ADVERTISING",
   "SOFTWARE",
@@ -164,7 +165,196 @@ const projects = [
   client: "Ovahglo Client",
 },
 
+ 
+
   {
+  id: 9,
+  title: "Embroidery",
+  category: "EMBROIDERY",
+  image:
+    "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787575529/embrodery.jpg",
+  shortDescription:
+    "Professional embroidery services that add a premium and professional finish to uniforms, workwear, caps, and branded clothing.",
+  challenge:
+    "The client wanted to create professional branded clothing that would give their team a consistent appearance while strengthening brand recognition.",
+  solution: [
+    "Custom Embroidery",
+    "Logo Digitization",
+    "Uniform Branding",
+    "Cap Embroidery",
+    "Workwear Branding",
+    "High-Quality Thread Stitching",
+  ],
+  results:
+    "The branded clothing achieved a clean and professional appearance, giving the team a consistent corporate identity while increasing brand visibility.",
+  year: "2026",
+  client: "Ovahglo Client",
+},
+  
+{
+  id: 10,
+  title: "High Quality Large Format Printing",
+  category: "PRINTING",
+  image:
+    "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787576410/OVAH003.jpg",
+  shortDescription:
+    "High-quality banner printing that delivers bold, vibrant, and professional visuals for businesses, events, promotions, and outdoor advertising.",
+  challenge:
+    "The client needed an eye-catching and durable banner that could effectively communicate their message and attract attention in a busy environment.",
+  solution: [
+    "Custom Banner Design",
+    "High-Quality Large Format Printing",
+    "Vibrant Full-Color Printing",
+    "Custom Banner Sizes",
+    "Promotional Messaging",
+    "Professional Finishing",
+  ],
+  results:
+    "The client received a vibrant and professional banner that clearly communicated their message, increased visibility, and created a strong visual presence for their brand.",
+  year: "2026",
+  client: "Ovahglo Client",
+},
+
+{
+  id: 11,
+  title: "Complete Brand Identity Design",
+  category: "BRANDING",
+  image:
+    "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787654635/seedcobranding.jpg",
+  shortDescription:
+    "A complete branding solution designed to create a strong, consistent, and professional visual identity for the business.",
+  challenge:
+    "The client needed a distinctive and professional brand identity that would communicate their values, stand out from competitors, and maintain consistency across different marketing materials.",
+  solution: [
+    "Logo Design",
+    "Brand Identity Development",
+    "Color Palette Selection",
+    "Typography System",
+    "Brand Guidelines",
+    "Marketing & Promotional Materials",
+  ],
+  results:
+    "The client received a cohesive and professional brand identity that improved visual consistency, strengthened brand recognition, and created a more credible presence across marketing platforms.",
+  year: "2026",
+  client: "Ovahglo Client",
+},
+
+{
+  id: 12,
+  title: "Custom Business Signage & Installation",
+  category: "SIGNAGE",
+  image: "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787656463/signage.jpg",
+  shortDescription:
+    "Custom illuminated business signage designed and installed to create a bold, professional, and highly visible brand presence.",
+  challenge:
+    "The client needed prominent exterior signage that would clearly identify their business, strengthen brand visibility, and create an attractive storefront presence.",
+  solution: [
+    "Custom Signage Design",
+    "3D Lettering",
+    "Illuminated Signage",
+    "Brand Logo Integration",
+    "Outdoor Signboard Production",
+    "Professional Signage Installation",
+  ],
+  results:
+    "The client received a bold and professional storefront sign that improved brand visibility, created a strong first impression, and gave the business a distinctive exterior presence.",
+  year: "2026",
+  client: "Eighties Lounge",
+},
+
+{
+  id: 13,
+  title: "Custom Branded Corporate Cups",
+  category: "BRANDING",
+  image: "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787657228/brandedcups.jpg",
+  shortDescription:
+    "Custom branded ceramic cups designed to showcase an organization’s identity through professional and durable corporate merchandise.",
+  challenge:
+    "The client needed branded merchandise that could reinforce their visual identity and create a professional, consistent brand presence in everyday use.",
+  solution: [
+    "Custom Cup Branding",
+    "Logo Application",
+    "Corporate Merchandise Design",
+    "High-Quality Ceramic Printing",
+    "Custom Brand Placement",
+    "Professional Finishing",
+  ],
+  results:
+    "The client received professional branded cups featuring their identity, providing a practical promotional item that strengthened brand visibility and recognition.",
+  year: "2026",
+  client: "Zambia Air Force",
+},
+
+{
+  id: 14,
+  title: "Custom Branded Puffer Jackets",
+  category: "BRANDING",
+  image: "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787658098/bomber.jpg",
+  shortDescription:
+    "Custom branded puffer jackets featuring professionally applied company branding for corporate teams, staff uniforms, promotional campaigns, and outdoor use.",
+  challenge:
+    "The client needed professional branded outerwear that would provide a practical uniform solution while keeping the company identity visible and consistent.",
+  solution: [
+    "Custom Puffer Jacket Branding",
+    "Logo Embroidery",
+    "Corporate Apparel Design",
+    "Custom Staff Uniforms",
+    "Premium Garment Branding",
+    "Professional Finishing",
+  ],
+  results:
+    "The client received high-quality branded jackets that combined functionality with a strong professional appearance, improving team presentation and brand visibility.",
+  year: "2026",
+  client: "Seed Co",
+},
+
+{
+  id: 15,
+  title: "Custom Branded Promotional Umbrellas",
+  category: "BRANDING",
+  image: "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787660386/umbrella.jpg",
+  shortDescription:
+    "Custom branded umbrellas designed to provide practical everyday use while giving businesses a highly visible and professional promotional presence.",
+  challenge:
+    "The client needed a practical promotional product that could effectively display their brand while providing useful protection from the elements.",
+  solution: [
+    "Custom Umbrella Branding",
+    "Logo Printing",
+    "Promotional Merchandise",
+    "Full-Color Brand Application",
+    "Corporate Gift Branding",
+    "Professional Finishing",
+  ],
+  results:
+    "The client received durable branded umbrellas that combined functionality with strong visual branding, increasing brand visibility wherever they were used.",
+  year: "2026",
+  client: "Dekalb",
+},
+
+{
+  id: 16,
+  title: "Custom Branded Feather Flags",
+  category: "SIGNAGE",
+  image: "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787661354/poles.jpg",
+  shortDescription:
+    "Custom feather flags designed to deliver bold, highly visible branding for businesses, events, promotions, and outdoor marketing campaigns.",
+  challenge:
+    "The client needed portable outdoor signage that could attract attention from a distance while clearly displaying their brand and promotional messaging.",
+  solution: [
+    "Custom Feather Flag Design",
+    "Full-Color Digital Printing",
+    "Custom Brand Graphics",
+    "Outdoor Promotional Signage",
+    "Custom Flag Sizes",
+    "Professional Pole & Base Setup",
+  ],
+  results:
+    "The client received vibrant and professional feather flags that increased visibility, attracted attention, and created a strong branded presence at outdoor locations and events.",
+  year: "2026",
+  client: "Corporate Client",
+},
+
+ {
   id: 7,
   title: "Embroidery",
   category: "EMBROIDERY",
@@ -208,54 +398,6 @@ const projects = [
   ],
   results:
     "The branded clothing achieved a clean and professional appearance, giving the team a consistent corporate identity while increasing brand visibility.",
-  year: "2026",
-  client: "Ovahglo Client",
-},
-
-  {
-  id: 9,
-  title: "Embroidery",
-  category: "EMBROIDERY",
-  image:
-    "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787575529/embrodery.jpg",
-  shortDescription:
-    "Professional embroidery services that add a premium and professional finish to uniforms, workwear, caps, and branded clothing.",
-  challenge:
-    "The client wanted to create professional branded clothing that would give their team a consistent appearance while strengthening brand recognition.",
-  solution: [
-    "Custom Embroidery",
-    "Logo Digitization",
-    "Uniform Branding",
-    "Cap Embroidery",
-    "Workwear Branding",
-    "High-Quality Thread Stitching",
-  ],
-  results:
-    "The branded clothing achieved a clean and professional appearance, giving the team a consistent corporate identity while increasing brand visibility.",
-  year: "2026",
-  client: "Ovahglo Client",
-},
-  
-{
-  id: 9,
-  title: "High Quality Large Format Printing",
-  category: "PRINTING",
-  image:
-    "https://res.cloudinary.com/dgpnpqthy/image/upload/v1787576410/OVAH003.jpg",
-  shortDescription:
-    "High-quality banner printing that delivers bold, vibrant, and professional visuals for businesses, events, promotions, and outdoor advertising.",
-  challenge:
-    "The client needed an eye-catching and durable banner that could effectively communicate their message and attract attention in a busy environment.",
-  solution: [
-    "Custom Banner Design",
-    "High-Quality Large Format Printing",
-    "Vibrant Full-Color Printing",
-    "Custom Banner Sizes",
-    "Promotional Messaging",
-    "Professional Finishing",
-  ],
-  results:
-    "The client received a vibrant and professional banner that clearly communicated their message, increased visibility, and created a strong visual presence for their brand.",
   year: "2026",
   client: "Ovahglo Client",
 },
@@ -650,7 +792,7 @@ function InteractivePortfolio() {
                         </p>
                       </div>
 
-                      <div>
+                      {/* <div>
                         <p className="text-xs text-slate-500">
                           Year
                         </p>
@@ -658,7 +800,7 @@ function InteractivePortfolio() {
                         <p className="mt-1 font-semibold">
                           {selectedProject.year}
                         </p>
-                      </div>
+                      </div> */}
 
                       <div>
                         <p className="text-xs text-slate-500">
